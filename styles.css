@@ -1,0 +1,38 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#coolblue {
+    background-color: #2d5dcc;
+    color: #fff;
+}
+
+.container {
+    margin: 10px auto;
+    border: 2px solid grey;
+    padding: 10px;
+}
+
+.colour-panel {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 20px auto
+}
+
+.coolblue {
+    background-color: #2d5dcc;
+    color: #fff;
+}
+
+.pink {
+    background-color: #d957d9;
+}
+
+.mintgreen {
+    background-color: #4fe0b0;
+}
+
+.beige {
+    background-color: #efd9ca;
+}
