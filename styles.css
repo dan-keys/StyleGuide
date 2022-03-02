@@ -36,3 +36,53 @@ body {
 .beige {
     background-color: #efd9ca;
 }
+
+.font::after {
+    content: "The quick brown fox jumps over the lazy dog. 1234567890";
+}
+
+.name {
+    text-decoration: underline;
+}
+
+.normal {
+    font-size: 20px;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.font-panel {
+    width: 45%;
+    display: block;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.f1 {
+    font-family: 'Nunito Sans', sans-serif;
+    text-indent: 20px;
+}
+
+.f2 {
+    font-family: 'Poppins', sans-serif;
+    text-indent: 20px;
+}
+
+.f3 {
+    font-family: 'Source Code Pro', monospace;
+    text-indent: 20px;
+}
